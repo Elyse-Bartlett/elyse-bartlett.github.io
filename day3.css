@@ -1,0 +1,73 @@
+header {
+  background-color:#004F2D;
+
+
+}
+body {
+	font-family: times new roman;
+	color: #fff;
+	font-size:1.2em;
+  margin:0%;
+}
+
+page-wrapper {
+  width: 0px;
+  height: 0px;
+}
+
+header, .summary {
+  padding:20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.summary {
+  background-color:#0A8754;
+}
+
+.preamble {
+  background-color: #508CA4;
+}
+
+
+.preamble {
+  padding:20px;
+}
+
+.main {
+width: 75%;
+margin: 40px auto;
+border: solid #2F4858 2px;
+border-radius: 20px;
+padding: 20px;
+color:#2F4858;
+}
+
+.design-selection {
+    background-color: #508CA4;
+  }
+
+section div, .wrapper div {
+    padding: 20px;
+}
+a {
+  color: #63D471;
+    text-decoration: none;
+}
+
+.summary, .design-archives {
+    background: #0A8754;
+    padding:20px;
+}
+
+header, .zen-resources {
+
+    background-color: #004F2D;
+  }
+
+  section div, .wrapper div {
+      padding: 20px;
+    }

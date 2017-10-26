@@ -1,0 +1,30 @@
+style.css
+h3 {
+  color: lavendar;
+}
+
+h1 {
+  color: blue;
+}
+
+aside h3 {
+  color: green;
+}
+
+.className {
+  color: hot pink;
+}
+
+#idName {
+  color: lime green;
+}
+
+img{
+  width:100ex;
+}
+
+body {
+  margin:0;
+  background: linear-gradient(turquoise, lime green, fushia);
+
+  }

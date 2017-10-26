@@ -1,0 +1,257 @@
+
+h2 {
+  color: white;
+  font-family: old english text mt;
+}
+
+h1 {
+  color: blue;
+  font-family: old english text mt;
+}
+
+aside h1 {
+  color: green;
+}
+
+.className {
+  color: hot pink;
+}
+
+#idName {
+  color: lime green;
+}
+
+img{
+  width:100ex;
+}
+
+body {
+  margin:0;
+  background: linear-gradient(turquoise, white, turquoise);
+
+  background:red url "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPF6dIlOBpS_StZaH4P2WqqjZDKQqZrxi-P9kCkE-nwcAvOYpf"
+ box-shadow: 5px 5px 5px blue;
+}
+body {
+	background-color: #0000ff;
+	margin: 0;
+	font-family: 'Hind', sans-serif;
+}
+
+.menu {
+	background-color: #0808ec;
+
+}
+div:hover {
+  background: grey;
+   }
+h2  {
+  animation-name: anything;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode:both;
+  animation-play-state: paused;
+}
+
+a, p {
+	color: #00bcd4;
+	text-decoration: none;
+  font-weight: bold;
+  font-family: old english text mt;
+}
+
+li {
+	list-style: none;
+	margin: 0 0 0 1em;
+	padding: 0 1em;
+}
+p{
+	padding: 0 1em;
+}
+.icon {
+	display: none;
+	padding: 0 1em;
+}
+.topnav, .navShow {
+	display: flex;
+
+}
+
+
+}
+.topnav li, navShow li {
+	margin: 0 0 0 1em;
+
+}
+.menu {
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav {
+		display: none;
+	}
+	.navShow {
+		flex-direction: column;
+	}
+	.menu div:last-child {
+		background: rgba(98, 99, 103, 0.97);
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li:hover {
+		background: #3e3e3e;
+	}
+	li {
+		margin: 0;
+	}
+	.icon {
+		display: flex;
+	}
+	.menu div:first-child {
+		display: flex;
+		aline-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.menu {
+		flex-diretion: column;
+	}
+}
+h2 {
+  color: white;
+  font-family: old english text mt;
+}
+
+h1 {
+  color: blue;
+  font-family: old english text mt;
+}
+
+aside h1 {
+  color: green;
+}
+
+.className {
+  color: hot pink;
+}
+
+#idName {
+  color: lime green;
+}
+
+img{
+  width:100ex;
+}
+
+body {
+  margin:0;
+  background: linear-gradient(turquoise, white, turquoise);
+
+  background:red url "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPF6dIlOBpS_StZaH4P2WqqjZDKQqZrxi-P9kCkE-nwcAvOYpf"
+ box-shadow: 5px 5px 5px blue;
+}
+body {
+	background-color: #0000ff;
+	margin: 0;
+	font-family: 'Hind', sans-serif;
+}
+
+.menu {
+	background-color: #0808ec;
+
+}
+div:hover {
+  background: grey;
+   }
+h2  {
+  animation-name: anything;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-fill-mode:both;
+  animation-play-state: paused;
+}
+
+a, p {
+	color: #00bcd4;
+	text-decoration: none;
+  font-weight: bold;
+  font-family: old english text mt;
+}
+
+li {
+	list-style: none;
+	margin: 0 0 0 1em;
+	padding: 0 1em;
+}
+p{
+	padding: 0 1em;
+}
+.icon {
+	display: none;
+	padding: 0 1em;
+}
+.topnav, .navShow {
+	display: flex;
+
+}
+
+
+}
+.topnav li, navShow li {
+	margin: 0 0 0 1em;
+
+}
+.menu {
+	padding: 0 1em;
+	display: flex;
+	justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav {
+		display: none;
+	}
+	.navShow {
+		flex-direction: column;
+	}
+	.menu div:last-child {
+		background: rgba(98, 99, 103, 0.97);
+	}
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+
+	li:hover {
+		background: #3e3e3e;
+	}
+	li {
+		margin: 0;
+	}
+	.icon {
+		display: flex;
+	}
+	.menu div:first-child {
+		display: flex;
+		aline-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.menu {
+		flex-diretion: column;
+	}
+}

@@ -1,0 +1,51 @@
+main, aside {
+  display: inline-bock;
+  width:45%
+  vertcal-align: top;
+
+  aside {
+  background: #eee;
+  width: 30%;
+  postion: absolute;
+  right: 0
+  height: 100%;
+  flex: 2;
+  margin-left: 20px;
+  }
+
+  body {
+  text-align: center;
+  width:75%;
+  margin:auto;
+  }
+
+  header + div {
+  position: relative;
+  }
+.cards div {
+  display: inline-block;
+  height: 100px;
+  postion: absolute;
+  width:
+}
+.cards {
+    position: relative;
+}
+.cards div: last-child {
+    position: absolute;
+    right: 0;
+}
+
+.cards div: nth-of-type (2)
+    position: absolute;
+    right:35%
+    left: 35%;
+
+article {
+    margin: 40px 0;
+}
+
+.wrapper > div {
+    display: flex;
+    justify-content: space-between;
+}

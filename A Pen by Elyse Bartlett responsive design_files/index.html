@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html# -->
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js.download"></script><script src="./events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js.download"></script><script src="./css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js.download"></script><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="https://production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"><link rel="mask-icon" type="" href="https://production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111"><link rel="canonical" href="https://codepen.io/bboppin77/pen/qPzyqL">
+
+
+<style type="text/css" class="cp-pen-styles">@import url('https://fonts.googleapis.com/css?family=Hind');
+
+body {
+	background-color: #FF9B66;
+	margin: 0;
+	font-family: 'Hind', sans-serif;
+}
+
+.menu {
+	background-color: #F4D8CD;
+}
+
+a, p {
+	color: #FF9B66;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+	margin: 0 0 0 1em; 
+	padding: 0 1em; 
+}
+p{
+	padding: 0 1em; 
+}
+.icon {
+	display: none;
+	padding: 0 1em; 
+}
+.topnav, .navShow {
+	display: flex;
+	
+}
+
+
+}
+.topnav li, navShow li {
+	margin: 0 0 0 1em; 
+	
+}
+.menu {
+	padding: 0 1em; 
+	display: flex; 
+	justify-content: space-between; 
+}
+
+@media only screen and (max-width: 600px) {
+	.topnav {
+		display: none; 
+	}
+	.navShow {
+		flex-direction: column; 
+	}
+	.menu div:last-child {
+		background: rgba(98, 99, 103, 0.97); 
+	}
+	
+	ul {
+		padding: 0;
+		margin: 0; 
+	}
+	
+	li:hover {
+		background: #3e3e3e; 
+	}
+	li {
+		margin: 0; 
+	}
+	.icon {
+		display: flex; 
+	}
+	.menu div:first-child {
+		display: flex;
+		aline-items: center;
+		justify-content: space-between; 
+		width: 100%; 
+	}
+	.menu {
+		flex-diretion: column; 
+	}
+}</style></head><body>
+<nav class="menu">
+	<div>
+		<a class="logo" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+			<p>YooOOo</p>
+		</a>
+		<a id="openMenu" class="icon" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+			☰
+		</a>
+	</div>
+	<div>
+		<ul id="navLinks" class="navShow">
+			<li>
+				<a class="navLink" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+					Link1
+				</a>
+			</li>
+			<li>
+				<a class="navLink" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+					Link2
+				</a>
+			</li>
+			<li>
+				<a class="navLink" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+					Link3
+				</a>
+			</li>
+			<li>
+				<a class="navLink" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+					Link4
+				</a>
+			</li>
+			<li>
+				<a class="navLink" href="https://s.codepen.io/boomerang/iFrameKey-49e7cb50-47c5-887c-defe-ac079dd5db8b/index.html#">
+					Linke5
+				</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+<script src="./stopExecutionOnTimeout-b2a7b3fe212eaa732349046d8416e00a9dec26eb7fd347590fbced3ab38af52e.js.download"></script><script src="./jquery.min.js.download"></script>
+<script>$(' #openMenu ').click(function(e) {
+	$(' #navLinks').toggleClass('navShow').toggleClass('topnav')
+})
+//# sourceURL=pen.js
+</script>
+</body></html>
